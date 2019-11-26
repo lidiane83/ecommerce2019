@@ -137,10 +137,10 @@
                                 <h2><a href="/product/{$value.desurl}">{$value.desproduct}</a></h2>
                                 
                                 <div class="product-carousel-price">
-                                    <ins>R${$value.vlprice}</ins> <del>$100.00</del>
+                                    <ins>R${function="formatPrice($value.vlprice)"}</ins> <del>$100.00</del>
                                 </div> 
                             </div>
-                            [/loop}
+                            {/loop}
                         </div>
                     </div>
                 </div>

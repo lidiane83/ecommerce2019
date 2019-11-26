@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/ecommerce/site.php</file>
             <file>file:/C:/ecommerce/views/index.html</file>
+            <file>file:/C:/ecommerce/index.php</file>
+            <file>file:/C:/ecommerce/functions.php</file>
         </group>
     </open-files>
 </project-private>

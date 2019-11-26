@@ -81,5 +81,14 @@ public  function save(){
         imagedestroy($image);
         $this->checkPhoto();
     }
+    public static function checkList($List){
+        foreach ($List as &$row) {
+            $p = new Products();
+            $p->setData($row);
+            $row = $p->getValues();
+        }
+        return $List;
+    }
+   
 
 }
